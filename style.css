@@ -1,10 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+      /* ------------strat style for frist section class top_bannar ------------ */
+.top_bannar{
+    background-image: url(image/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+
+
+}
 h1{
-    background: black;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    color:black;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-shadow: rgb(249, 251, 252) 1px 1px 5px;
+    font-size: 50px;
+    
+}
+.name_hi{
+    color: #e67e22;
+}
+.w-50{
+    width: 40%;
+}
+.flode_r{
+    float:right;
+}
+.flode_l{
+    float:left;
+}
+.header_contain{
+    padding: 5%;
+    overflow: hidden;
+}
+.header_image{
+    padding:0 5%;
+    overflow: hidden;
+}
+img{
+    width: 130%;
+    border-radius: 40px;
+}
+a{
+    background: linear-gradient(5deg, #f1c40f, #f39c12);
+    font-size: 20px;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+/* ------------End style for frist section class top_bannar ------------ */
+
+
+
+.dream{
+    height: 500px;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+p{
+    color: rgb(70, 65, 65);
+    font-size: 22px;
+}
+.expe_hade_h1{
+    font-size: 40px;
+    color: #f39c12;
+    margin-left: 60px
+}
+
+.year{
+    color: #f39c12;
+}
+.experiennce{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: left center;
+}
+.dev_contain{
+    padding: 20px;
+    margin-left: 30px;
+    /* border:solid gray 1px; */
+    border-left: solid 8px red;
+    border-radius: 5px;
+    border-top-left-radius:none ;
+    border-bottom-left-radius:none ;
+    margin-bottom: 30px;
+    box-shadow: gray -3px  -3px 10px;
+    height: 350px;
+}
+.dev_contain2{
+    margin-left: 0px;
+    margin-right: 50px;
+    border-left: green 8px solid;
 }
