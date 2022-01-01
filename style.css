@@ -90,8 +90,10 @@ p{
     box-shadow: gray -3px  -3px 10px;
     height: 350px;
 }
-.dev_contain2{
+#dev_contain{
     margin-left: 0px;
     margin-right: 50px;
-    border-left: green 8px solid;
+    border-left:8px solid;
+    border-image:linear-gradient(180deg, #1abc9c,#115a4b);
+    border-image-slice: 1;
 }
